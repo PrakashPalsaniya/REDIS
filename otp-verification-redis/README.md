@@ -28,9 +28,6 @@ After successful verification, the OTP is deleted from Redis.
 
 ## Disadvantages
 
-- This is only a demo and returns OTP in the response
-- No real SMS sending
-- No retry limit or attempt count
 - No rate limiting or abuse protection
 - If Redis restarts and persistence is not configured, OTP data can be lost
 
