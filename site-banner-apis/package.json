@@ -1,0 +1,23 @@
+{
+  "name": "site-banner-apis",
+  "version": "1.0.0",
+  "description": "Simple Express and Redis API for managing a website banner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "redis",
+    "express",
+    "banner",
+    "cache",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.1"
+  }
+}
