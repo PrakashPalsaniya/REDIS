@@ -1,0 +1,23 @@
+{
+  "name": "pub-sub-redis",
+  "version": "1.0.0",
+  "description": "Basic Redis Pub/Sub demo using Express and ioredis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "redis",
+    "pubsub",
+    "ioredis",
+    "express",
+    "notifications"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.1"
+  }
+}
